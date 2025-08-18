@@ -1,9 +1,10 @@
 package main
 
 import "core:strings"
-import rl "vendor:raylib"
 import "utils"
+import rl "vendor:raylib"
 
+Vec2 :: [2]f32
 Vec3 :: [3]f32
 
 load_texture :: proc(filename: string) -> rl.Texture {
