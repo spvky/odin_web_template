@@ -15,7 +15,7 @@ draw_to_screen :: proc() {
 	rl.ClearBackground(rl.BLACK)
 	source := rl.Rectangle {
 		x      = 0,
-		y      = 0,
+		y      = f32(WINDOW_HEIGHT - SCREEN_HEIGHT),
 		width  = f32(SCREEN_WIDTH),
 		height = -f32(SCREEN_HEIGHT),
 	}
